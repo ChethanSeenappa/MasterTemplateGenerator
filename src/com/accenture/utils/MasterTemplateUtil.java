@@ -1452,6 +1452,7 @@ public class MasterTemplateUtil {
         this.setAllSegmentMaster("EVN-3", "EVN-3-date/time_planned_event");
         this.setAllSegmentMaster("EVN-4", "EVN-4-event_reason_code");
         this.setAllSegmentMaster("EVN-5", "EVN-5-operator_ID");
+        this.setAllSegmentMaster("EVN-6", "EVN-6-event_occurred");
         this.setAllSegmentMaster("PID-1", "PID-1-set_ID");
         this.setAllSegmentMaster("PID-2", "PID-2-patient_ID_external");
         this.setAllSegmentMaster("PID-2.1", "PID-2-patient_ID_external.ID_number");
