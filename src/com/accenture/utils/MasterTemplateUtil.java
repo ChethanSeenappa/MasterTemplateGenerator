@@ -93,7 +93,7 @@ public class MasterTemplateUtil {
         return this.obxFieldValuePair;
     }
     
-    public void buildMSHSegement(){
+    public void buildMSHSegment(){
         this.setMSHFieldValuePair("MSH-ALL", "" ,"" ,"Entire MSH Segment");
         this.setMSHFieldValuePair("MSH-0", "1" ,"1" ,"Segment ID");
         this.setMSHFieldValuePair("MSH-1", "1" ,"1" ,"Field Separator (ST)");
@@ -212,7 +212,7 @@ public class MasterTemplateUtil {
         this.setMSHFieldValuePair("MSH-25.3.1", "" ,"" ,"Receiving Network Address (HD).Universal ID Type (ID)");
     }
     
-    public void buildEVNSegement(){
+    public void buildEVNSegment(){
         this.setEVNFieldValuePair("EVN-ALL", "" ,"" ,"Entire EVN Segment");
         this.setEVNFieldValuePair("EVN-0", "1" ,"1" ,"Segment ID");
         this.setEVNFieldValuePair("EVN-1", "0" ,"1" ,"Event Type Code (ID)");
@@ -290,7 +290,7 @@ public class MasterTemplateUtil {
         this.setEVNFieldValuePair("EVN-7.3", "" ,"" ,"Event Facility (HD).Universal ID Type (ID)");
     }
     
-    public void buildPIDSegement(){
+    public void buildPIDSegment(){
         this.setPIDFieldValuePair("PID-ALL", "" ,"" ,"Entire PID Segment");
         this.setPIDFieldValuePair("PID-0", "1" ,"1" ,"Segment ID");
         this.setPIDFieldValuePair("PID-1", "0" ,"1" ,"Set ID - PID (SI)");
@@ -838,7 +838,7 @@ public class MasterTemplateUtil {
         this.setPIDFieldValuePair("PID-39.9.1", "" ,"" ,"Tribal Citizenship (CWE).Original Text (ST)");
     }
     
-    public void buildPV1Segement(){
+    public void buildPV1Segment(){
         this.setPV1FieldValuePair("PV1-ALL", "" ,"" ,"Entire PV1 Segment");
         this.setPV1FieldValuePair("PV1-0", "1" ,"1" ,"Segment ID");
         this.setPV1FieldValuePair("PV1-1", "0" ,"1" ,"Set ID - PV1 (SI)");
@@ -1680,7 +1680,7 @@ public class MasterTemplateUtil {
         this.setPV2FieldValuePair("PV2-50.1.1", "0" ,"1" ,"Advance Directive Last Verified Date (DT)");
     }
     
-    public void buildORCSegement(){
+    public void buildORCSegment(){
         this.setORCFieldValuePair("ORC-ALL", "" ,"" ,"Entire ORC Segment");
         this.setORCFieldValuePair("ORC-0", "1" ,"1" ,"Segment ID");
         this.setORCFieldValuePair("ORC-1", "1" ,"1" ,"Order Control (ID)");
