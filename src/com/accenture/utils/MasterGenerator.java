@@ -61,7 +61,7 @@ public class MasterGenerator {
                 }
                 
             }
-            System.out.println("this.setPIDFieldValuePair(\""+fieldName+"\", "+values+");");
+            System.out.println("this.setDG1FieldValuePair(\""+fieldName+"\", "+values+");");
         }
     }
     
