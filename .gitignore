@@ -5,3 +5,4 @@ build/classes/*
 dist/*
 manifest.mf
 nbproject/*
+nbproject/private/*
