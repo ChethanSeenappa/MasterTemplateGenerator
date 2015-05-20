@@ -124,7 +124,7 @@ public class MasterTemplateUtil {
         return this.nteFieldValuePair;
     }
     
-     public void setIN1FieldValuePair(String key, String min, String max, String description){
+    public void setIN1FieldValuePair(String key, String min, String max, String description){
         String[] value = {min ,max, description};
         this.in1FieldValuePair.put(key, value);
     }
