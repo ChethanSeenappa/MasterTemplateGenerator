@@ -30,7 +30,7 @@ public class MasterGenerator {
     
     public static void main(String[] args){
         MasterGenerator masterGenerator = new MasterGenerator();
-        masterGenerator.setFilePath("C:\\Users\\dheeraj\\Desktop\\MasterSegementDetail.txt");
+        masterGenerator.setFilePath("C:\\Users\\priyanka.a.venkatesh\\Desktop\\MasterSegementDetail.txt");
         try {
             masterGenerator.readFile();
         } catch (IOException ex) {
@@ -61,7 +61,7 @@ public class MasterGenerator {
                 }
                 
             }
-            System.out.println("this.setPIDFieldValuePair(\""+fieldName+"\", "+values+");");
+            System.out.println("this.setIN1FieldValuePair(\""+fieldName+"\", "+values+");");
         }
     }
     
