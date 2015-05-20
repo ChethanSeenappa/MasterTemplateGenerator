@@ -1,0 +1,8 @@
+build.xml
+build/built-jar.properties
+build/*
+build/classes/*
+dist/*
+manifest.mf
+nbproject/*
+nbproject/private/*
